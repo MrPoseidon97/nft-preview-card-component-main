@@ -1,0 +1,138 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-family: 'Outfit', sans-serif;
+    background-color: hsl(217, 54%, 11%);
+}
+main {
+    min-width: 100vw;
+
+}
+
+p {
+    font-size: 16px
+}
+
+.container{
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    margin: 0 auto;
+    background-color: hsl(216, 50%, 16%);
+    width: 30%;
+    min-width: 348px;
+    max-width: 348px;
+    border-radius: 1em;
+}
+
+
+.image-wrap {
+    display: flex;
+    position: relative
+}
+.hero-img {
+    display: inline-block;
+    margin: 0 auto;
+    margin-top: 19px;
+    width: 90%;
+    border-radius: 1em 1em 1em 1em;
+}
+
+
+.hover-view {
+    opacity: 0;
+    position:absolute;
+    text-align: center;
+    top:17px;
+    left: 17px;
+    padding: 133px 133px 133px 133px;
+    background-color: hsla(178, 100%, 50%, 0.42);
+    border-radius: 1em;
+    transition: opacity 0.2s ease-in-out 0.2s;
+}
+
+.hover-view:hover {
+    opacity: 1;
+    position:absolute;
+    text-align: center;
+    top:17px;
+    left: 17px;
+    padding: 133px 133px 133px 133px;
+    background-color: hsla(178, 100%, 50%, 0.42);
+    border-radius: 1em;
+}
+
+
+.header{
+    color: hsl(0, 0%, 100%);
+    font-size: 25px
+}
+
+.intro-text {
+    color:hsl(215, 51%, 70%);
+}
+
+.header, 
+.intro-text{
+    padding-top: 19px;
+    width: 90%;
+    margin-left: 19px;
+
+}
+
+hr {
+    border: 1px solid hsl(215, 32%, 27%);
+    width: 90%;
+    margin: 20px auto;
+    
+}
+
+.info{
+    padding-top: 19px;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    margin: 0 19px 0 19px;
+    max-width: 100%; 
+}
+
+.eth {
+    color:hsl(178, 100%, 50%);
+}
+
+.timer {
+    color:hsl(215, 51%, 70%)
+}
+
+.info p img {
+    vertical-align: text-top;
+    margin-right: 5px;
+}
+
+.original-poster {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 19px;
+    padding-bottom: 19px;
+    color:hsl(215, 51%, 70%);
+}
+
+.original-poster img{
+    width: 35px;
+    border: 1px solid white;
+    border-radius: 100%;
+    margin-right: 19px;
+}
+
+.op-name {
+    color:hsl(0, 0%, 100%)
+}
